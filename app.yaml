@@ -1,0 +1,51 @@
+application: my-project-test-150523
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+
+handlers:
+
+- url: /admin/js
+  static_dir: admin/js
+
+- url: /admin/images
+  static_dir: admin/images
+
+- url: /js
+  static_dir: js
+
+- url: /fonts/
+  static_dir: fonts
+  mime_type: application/x-font-otf
+
+- url: /css
+  static_dir: css
+
+- url: /admin/css
+  static_dir: admin/css
+
+- url: /admin/font-awesome
+  static_dir: admin/font-awesome/
+
+- url: /admin/fonts
+  static_dir: admin/fonts
+
+- url: /admin/images
+  static_dir: admin/images
+
+- url: /includes/js
+  static_dir: /includes/js
+
+- url: /admin/includes/header.php
+  script: admin/includes/header.php
+
+
+- url: /(.+\.php)$
+  script: \1
+
+- url: /.*
+  script: album.php
+
+

@@ -1,0 +1,257 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c;
+}
+
+.navbar-collapse h4 {
+  color: #818a91;
+}
+
+.navbar-collapse .text-muted {
+  color: #818a91;
+}
+
+.about {
+  float: left;
+  max-width: 30rem;
+  margin-right: 3rem;
+}
+
+.social a {
+  font-weight: 500;
+  color: #ccc;
+}
+.social a:hover {
+  color: #ccc
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  background-image: url("/admin/images/jumbotron_image2.jpg");
+
+  border-radius: 0rem;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+    padding-bottom: 10px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  margin-top: 4px;
+  margin-bottom: -3px;
+}
+
+.card{
+  border: 1px solid #f7f7f7!important;
+}
+
+@media (min-width: 576px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+
+.jumbotron .container {
+  background-color: #fff;
+  padding: 20px;
+  opacity: 0.9;
+}
+
+.bg-inverse {
+  background-color: #080909 !important;}
+
+/*MODAL*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Roboto);*/
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+  /* border-radius: 3px; */
+  /* -webkit-user-select: none;
+    user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-help{
+  font-size: 12px;
+}
+
+
+.collapse-menu{
+  padding: 20px;
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1245px;
+    max-width: 100%;
+  }
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: 0.55rem;
+  margin-bottom: 2rem;}
+
+.card-block {
+  padding: 1.25rem;
+  font-size: 13px!important;
+  word-break: break-all;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.break{word-break: keep-all;}
+.center-footer{text-align: center;}
+
+
+.img-fluid, .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-width: 100%;
+  height: 280px !important;
+}
+
+
+.fa {
+  font-size: 25px!important;
+  color: #818A91;
+  padding: 10px 0px 5px 0px;
+}
+
+
+
+@media (max-width: 1040px){
+  .card {
+        width: 100%;
+        margin-bottom: 1rem;
+  }
+}
